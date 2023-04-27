@@ -15,8 +15,10 @@
   color: grey;
 }
 
-.wrapper {
-  width: 80vw;
+
+
+.app {
   margin: 0 auto;
+  max-width: 800px;
 }
 
