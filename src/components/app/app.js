@@ -112,10 +112,10 @@ export default class App extends Component {
     }
 
     filterPosts(items, filter) {
-        if (filter === 'like') {
-            return items.filter(item => item.like)
+        if (filter === 'Like') {
+            return items.filter(item => item.like);
         } else {
-            return items
+            return items;
         }
     }
 
